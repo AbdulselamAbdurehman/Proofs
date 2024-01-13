@@ -1,0 +1,10 @@
+Statement
+	P(n): The sum of all positive integers upto n is n(n+1)/2.
+Proof by Ordinary Induction
+	Base case:
+		when n = 1, P(n) is true.
+	Inductive case:
+		P(n) is true by assumption => 1 + 2 + ... + n = n(n+1)/2
+		Adding n+1 to both sides gives 1 + 2 + ... + n + (n + 1) = n(n+1)/2 + (n + 1) = (n+1)(n+2)/2 = P(n+1) 
+				Done.
+																											
